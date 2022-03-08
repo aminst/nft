@@ -23,6 +23,7 @@ if __name__ == "__main__":
 
     f = open('nodes.csv', 'w')
     writer = csv.writer(f)
+    writer.writerow(['addressId:ID'])
     for address in addresses:
-        writer.writerow(address)
+        writer.writerow([address])
     f.close()
