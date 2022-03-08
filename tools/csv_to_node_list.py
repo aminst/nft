@@ -24,5 +24,5 @@ if __name__ == "__main__":
     f = open('nodes.csv', 'w')
     writer = csv.writer(f)
     for address in addresses:
-        writer.writerow(addresses)
+        writer.writerow(address)
     f.close()
