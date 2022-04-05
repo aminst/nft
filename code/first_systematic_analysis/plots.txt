@@ -7,3 +7,4 @@
 7) y: average token per wallet, x: days after mint
 8) y: number of daily transactions, x: days after mint
 9) y: number of tokens, x: number of transactions
+10) y: daily market value, x: day
