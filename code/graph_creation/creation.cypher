@@ -3,9 +3,7 @@ CALL gds.graph.project(
     {
         Address: {properties: "addressId"}
     },
-    {
-        TRANSFERED_TO: {properties: ["amount", "block_hash", "block_number", "block_timestamp", "contract_type", "log_index", "operator", "token_address", "token_id", "transaction_hash", "transaction_index", "transaction_type", "value", "verified"]}
-    }
+    "TRANSFERED_TO"
 )
 YIELD
   graphName AS graph,
