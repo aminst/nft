@@ -4,12 +4,12 @@ import json
 uri = "neo4j://10.8.0.2:7687"
 driver = GraphDatabase.driver(uri, auth=("neo4j", "root"))
 
-def get_degree_centrality(tx):
+def get_closeness_centrality(tx):
     nodes = dict()
-    result = tx.run("MATCH(n) RETURN n.addressId as address, n.degree as centrality")
+    result = tx.run("MATCH(n) RETURN n.addressId as address, n.closeness_centrality as closeness")
 
     for record in result:
-        nodes[record['address']] = record['centrality']
+        nodes[record['address']] = record['closeness']
     return nodes
 
 
@@ -19,8 +19,8 @@ def write_to_file(d, name):
 
 
 with driver.session() as session:
-    pagerank = session.read_transaction(get_degree_centrality)
+    closeness = session.read_transaction(get_closeness_centrality)
     print("RECEIVED DATA")
-    write_to_file(pagerank, "out.json")
+    write_to_file(closeness, "closeness.json")
 
 driver.close()
