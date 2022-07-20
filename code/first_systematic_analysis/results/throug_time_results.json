@@ -1,0 +1,287 @@
+{
+    "2017-06": {
+        "avg_clustering": 0.03242969281040445,
+        "assortivity": -0.6761521321311883,
+        "avg_path_length": 0.020451354266294946
+    },
+    "2017-07": {
+        "avg_clustering": 0.08790940233901393,
+        "assortivity": -0.055916771277289314,
+        "avg_path_length": -1
+    },
+    "2017-08": {
+        "avg_clustering": 0.042224434243416126,
+        "assortivity": -0.08575117856677719,
+        "avg_path_length": 0.2994535519125683
+    },
+    "2017-09": {
+        "avg_clustering": 0.0,
+        "assortivity": 0.1195601218959631,
+        "avg_path_length": -1
+    },
+    "2017-10": {
+        "avg_clustering": 0.0,
+        "assortivity": 0.39417848345023565,
+        "avg_path_length": -1
+    },
+    "2017-11": {
+        "avg_clustering": 0.04777921571873125,
+        "assortivity": -0.6846061130459278,
+        "avg_path_length": -1
+    },
+    "2017-12": {
+        "avg_clustering": 0.028409052212088753,
+        "assortivity": -0.713253944660363,
+        "avg_path_length": -1
+    },
+    "2018-01": {
+        "avg_clustering": 0.011351422630264025,
+        "assortivity": -0.6687079010604664,
+        "avg_path_length": -1
+    },
+    "2018-02": {
+        "avg_clustering": 0.03297821098799506,
+        "assortivity": -0.6756955687504906,
+        "avg_path_length": -1
+    },
+    "2018-03": {
+        "avg_clustering": 0.03740784128074834,
+        "assortivity": -0.5928521276891303,
+        "avg_path_length": -1
+    },
+    "2018-04": {
+        "avg_clustering": 0.042626554838437594,
+        "assortivity": -0.5853093793102466,
+        "avg_path_length": -1
+    },
+    "2018-05": {
+        "avg_clustering": 0.046062329637263304,
+        "assortivity": -0.5150615569604196,
+        "avg_path_length": -1
+    },
+    "2018-06": {
+        "avg_clustering": 0.025868642748905758,
+        "assortivity": -0.48738093835320634,
+        "avg_path_length": -1
+    },
+    "2018-07": {
+        "avg_clustering": 0.034325603029613364,
+        "assortivity": -0.4985255509361093,
+        "avg_path_length": -1
+    },
+    "2018-08": {
+        "avg_clustering": 0.04564892075648458,
+        "assortivity": -0.45809590437589637,
+        "avg_path_length": -1
+    },
+    "2018-09": {
+        "avg_clustering": 0.018517598012027355,
+        "assortivity": -0.43452304274442793,
+        "avg_path_length": -1
+    },
+    "2018-10": {
+        "avg_clustering": 0.06934315800153819,
+        "assortivity": -0.32971810993521555,
+        "avg_path_length": -1
+    },
+    "2018-11": {
+        "avg_clustering": 0.07341826414592488,
+        "assortivity": -0.3150777638975396,
+        "avg_path_length": -1
+    },
+    "2018-12": {
+        "avg_clustering": 0.12997292828142717,
+        "assortivity": -0.2989386482717162,
+        "avg_path_length": -1
+    },
+    "2019-01": {
+        "avg_clustering": 0.09948229379920542,
+        "assortivity": -0.2779041453908288,
+        "avg_path_length": -1
+    },
+    "2019-02": {
+        "avg_clustering": 0.13092962363773233,
+        "assortivity": -0.28097402906022667,
+        "avg_path_length": -1
+    },
+    "2019-03": {
+        "avg_clustering": 0.08661259628454357,
+        "assortivity": -0.34718478094655114,
+        "avg_path_length": -1
+    },
+    "2019-04": {
+        "avg_clustering": 0.055858273587346526,
+        "assortivity": -0.3551010377453202,
+        "avg_path_length": -1
+    },
+    "2019-05": {
+        "avg_clustering": 0.006057061949232316,
+        "assortivity": -0.39488973383341436,
+        "avg_path_length": -1
+    },
+    "2019-06": {
+        "avg_clustering": 0.051665323312982146,
+        "assortivity": -0.27643855401443174,
+        "avg_path_length": -1
+    },
+    "2019-07": {
+        "avg_clustering": 0.1408038297338647,
+        "assortivity": -0.26408681558991076,
+        "avg_path_length": -1
+    },
+    "2019-08": {
+        "avg_clustering": 0.05902235428874199,
+        "assortivity": -0.26761053145172825,
+        "avg_path_length": -1
+    },
+    "2019-09": {
+        "avg_clustering": 0.06827670893762992,
+        "assortivity": -0.30171825767712257,
+        "avg_path_length": -1
+    },
+    "2019-10": {
+        "avg_clustering": 0.07681923384047064,
+        "assortivity": -0.2605263411195951,
+        "avg_path_length": -1
+    },
+    "2019-11": {
+        "avg_clustering": 0.06788671653617659,
+        "assortivity": -0.2967510174035042,
+        "avg_path_length": -1
+    },
+    "2019-12": {
+        "avg_clustering": 0.0968123248511881,
+        "assortivity": -0.21153653269817513,
+        "avg_path_length": -1
+    },
+    "2020-01": {
+        "avg_clustering": 0.08160656516760213,
+        "assortivity": -0.19947197432441166,
+        "avg_path_length": -1
+    },
+    "2020-02": {
+        "avg_clustering": 0.0684794615060406,
+        "assortivity": -0.24412924801524355,
+        "avg_path_length": -1
+    },
+    "2020-03": {
+        "avg_clustering": 0.07511709624693125,
+        "assortivity": -0.2142351846060433,
+        "avg_path_length": -1
+    },
+    "2020-04": {
+        "avg_clustering": 0.07367638042808994,
+        "assortivity": -0.20767444757477233,
+        "avg_path_length": -1
+    },
+    "2020-05": {
+        "avg_clustering": 0.09110361152244646,
+        "assortivity": -0.21157674437279678,
+        "avg_path_length": -1
+    },
+    "2020-06": {
+        "avg_clustering": 0.07143411230579357,
+        "assortivity": -0.18756364616638282,
+        "avg_path_length": -1
+    },
+    "2020-07": {
+        "avg_clustering": 0.05244353286157241,
+        "assortivity": -0.20729467829905937,
+        "avg_path_length": -1
+    },
+    "2020-08": {
+        "avg_clustering": 0.04629299160022833,
+        "assortivity": -0.15978383282736444,
+        "avg_path_length": -1
+    },
+    "2020-09": {
+        "avg_clustering": 0.08417486003506257,
+        "assortivity": -0.16958070862359306,
+        "avg_path_length": -1
+    },
+    "2020-10": {
+        "avg_clustering": 0.0958499010256037,
+        "assortivity": -0.19039045008343694,
+        "avg_path_length": -1
+    },
+    "2020-11": {
+        "avg_clustering": 0.07746630698629425,
+        "assortivity": -0.1756622698088666,
+        "avg_path_length": -1
+    },
+    "2020-12": {
+        "avg_clustering": 0.07574956584553187,
+        "assortivity": -0.15690160690301969,
+        "avg_path_length": -1
+    },
+    "2021-01": {
+        "avg_clustering": 0.052080377689367005,
+        "assortivity": -0.13952854900876638,
+        "avg_path_length": -1
+    },
+    "2021-02": {
+        "avg_clustering": 0.05807878328652204,
+        "assortivity": -0.10327653179471039,
+        "avg_path_length": -1
+    },
+    "2021-03": {
+        "avg_clustering": 0.06361293244627274,
+        "assortivity": -0.12423894110639096,
+        "avg_path_length": -1
+    },
+    "2021-04": {
+        "avg_clustering": 0.07218520813855787,
+        "assortivity": -0.15237581075876927,
+        "avg_path_length": -1
+    },
+    "2021-05": {
+        "avg_clustering": 0.05040769480614561,
+        "assortivity": -0.15361192024534462,
+        "avg_path_length": -1
+    },
+    "2021-06": {
+        "avg_clustering": 0.05095088643801115,
+        "assortivity": -0.11947122526562418,
+        "avg_path_length": -1
+    },
+    "2021-07": {
+        "avg_clustering": 0.05617698009162783,
+        "assortivity": -0.10543596696483842,
+        "avg_path_length": -1
+    },
+    "2021-08": {
+        "avg_clustering": 0.07036324111163661,
+        "assortivity": -0.05127811009262412,
+        "avg_path_length": -1
+    },
+    "2021-09": {
+        "avg_clustering": 0.09258230089925301,
+        "assortivity": -0.059220852196064044,
+        "avg_path_length": -1
+    },
+    "2021-10": {
+        "avg_clustering": 0.09007668593452578,
+        "assortivity": -0.07284339489652787,
+        "avg_path_length": -1
+    },
+    "2021-11": {
+        "avg_clustering": 0.07300543174155684,
+        "assortivity": -0.09228375632527726,
+        "avg_path_length": -1
+    },
+    "2021-12": {
+        "avg_clustering": 0.09612653505106014,
+        "assortivity": -0.08853881241092836,
+        "avg_path_length": -1
+    },
+    "2022-01": {
+        "avg_clustering": 0.08668787812309793,
+        "assortivity": -0.057579542859567644,
+        "avg_path_length": -1
+    },
+    "2022-02": {
+        "avg_clustering": 0.09029452691481855,
+        "assortivity": -0.061667215279236506,
+        "avg_path_length": -1
+    }
+}
