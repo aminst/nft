@@ -1,9 +1,9 @@
-import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import matplotlib.pyplot as plt
 import json
-import datetime
 
+sns.set_theme(style="darkgrid")
 
 with open('avg_tx_usd_per_day.json', 'r') as myfile:
     data=myfile.read()
@@ -16,15 +16,17 @@ y = []
 counter = 0
 
 for date in sorted_dates:
-    x.append(counter)
-    y.append(obj[date])
+    if True:
+        x.append(counter)
+        y.append(obj[date])
     counter += 1
 
-dframe = pd.DataFrame(
-    {'Days after mint': x,
-     'Average Tx Price (USD)': y,
+data = pd.DataFrame(
+    {'Days Passed': x,
+     'Average Transaction Price (USD)': y,
     })
 
-sns.lineplot(data=dframe, x="Days after mint", y="Average Tx Price (USD)")
-
+sns.lineplot(x="Days Passed", y="Average Transaction Price (USD)", data=data, lw=2)
 plt.show()
+
+# too har rooz ye average tx price hast. ino too har rooz keshidim.

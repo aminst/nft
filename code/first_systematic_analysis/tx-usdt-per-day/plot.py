@@ -6,7 +6,7 @@ import datetime
 
 sns.set_theme(style="darkgrid")
 
-with open('tx_count_per_day.json', 'r') as myfile:
+with open('tx_usd_per_day.json', 'r') as myfile:
     data=myfile.read()
 
 obj = json.loads(data)
@@ -23,8 +23,9 @@ for date in sorted_dates:
 
 data = pd.DataFrame(
     {'Days Passed': x,
-     'Number of Transactions': y,
+     'Value of Transactions (USD)': y,
     })
 
-g_results = sns.lineplot(x="Days Passed", y="Number of Transactions", data=data, lw=2)
+g_results = sns.lineplot(x="Days Passed", y="Value of Transactions (USD)", data=data, lw=2)
+# g_results.set(xscale='log')
 plt.show()

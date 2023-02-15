@@ -6,7 +6,7 @@ import datetime
 
 sns.set_theme(style="darkgrid")
 
-with open('tx_count_per_day.json', 'r') as myfile:
+with open('avg_degree_per_month.json', 'r') as myfile:
     data=myfile.read()
 
 obj = json.loads(data)
@@ -22,9 +22,9 @@ for date in sorted_dates:
     counter += 1
 
 data = pd.DataFrame(
-    {'Days Passed': x,
-     'Number of Transactions': y,
+    {'Months Passed': x,
+     'Average Degree': y,
     })
 
-g_results = sns.lineplot(x="Days Passed", y="Number of Transactions", data=data, lw=2)
+g_results = sns.lineplot(x="Months Passed", y="Average Degree", data=data, lw=2)
 plt.show()

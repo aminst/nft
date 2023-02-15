@@ -1,12 +1,9 @@
-import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import matplotlib.pyplot as plt
 import json
-import datetime
 
-
-import numpy as np
-import scipy.stats
+sns.set_theme(style="darkgrid")
 
 with open('avg_token_per_address.json', 'r') as myfile:
     data=myfile.read()
@@ -18,29 +15,18 @@ x = []
 y = []
 counter = 0
 
-
-def mean_confidence_interval(data, confidence=0.95):
-    a = 1.0 * np.array(data)
-    n = len(a)
-    m, se = np.mean(a), scipy.stats.sem(a)
-    h = se * scipy.stats.t.ppf((1 + confidence) / 2., n-1)
-    return m, m-h, m+h
-
-
 for date in sorted_dates:
-    if counter % 10 == 0:
+    if True:
         x.append(counter)
         y.append(obj[date])
     counter += 1
 
-dframe = pd.DataFrame(
-    {'Days after mint': x,
-     'Average Token': y,
+data = pd.DataFrame(
+    {'Days Passed': x,
+     'Avgerage Token per Address': y,
     })
 
-sns.lineplot(data=dframe, x="Days after mint", y="Average Token")
-
-# m, lower_bound, upper_bound = mean_confidence_interval(dframe["Average Token"])
-# print(lower_bound)
-# plt.fill_between(dframe["Days after mint"], lower_bound, upper_bound, alpha=.3)
+sns.lineplot(x="Days Passed", y="Avgerage Token per Address", data=data, lw=2)
 plt.show()
+
+# too har rooz ye average token per address hast. hala bar asas har rooz in meghdar ro keshidim.
